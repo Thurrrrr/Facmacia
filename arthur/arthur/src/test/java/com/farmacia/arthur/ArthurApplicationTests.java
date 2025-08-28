@@ -1,0 +1,13 @@
+package com.farmacia.arthur;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class ArthurApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
