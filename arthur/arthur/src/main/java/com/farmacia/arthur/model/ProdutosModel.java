@@ -5,21 +5,19 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@NoArgsConstructor
+@NoArgsConstructor //Construtor vazio
 @AllArgsConstructor
 @Data
-
-
 @Entity
 @Table(name = "TBPRODUTOS")
-public class Produtos {
+public class ProdutosModel {
     @Id@GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "cdProduto")
     private Integer cdProduto;
     @Column(name = "nmProduto")
     private String nmProduto;
     @Column (name = "dsBula")
-    private Integer dsBula;
+    private String dsBula;
     @Column(name = "vlProduto")
     private  double vlProduto;
 }
