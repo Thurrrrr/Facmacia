@@ -1,2 +1,2 @@
-# Facmacia
+# Farmacia
 Projeto farmacia da trier
